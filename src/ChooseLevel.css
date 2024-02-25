@@ -1,0 +1,10 @@
+.confirm-button:hover {
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.chosen {
+  color: yellow;
+  font-weight: bold;
+  font-size: 1.2em;
+}

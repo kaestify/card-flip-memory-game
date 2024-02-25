@@ -1,0 +1,38 @@
+.landing-div {
+  margin-top: 30vh;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* height: 80vh; */
+}
+
+.hide {
+  color: transparent;
+}
+
+li {
+  list-style: none;
+  margin: 5px;
+  font-size: 1em;
+}
+
+.game-level {
+  margin: 2%;
+}
+
+li:hover {
+  cursor: pointer;
+  color: yellow;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.instructions {
+  margin: 0;
+  font-size: small;
+}
+
+.landing-button:hover {
+  transform: scale(2);
+  transition: all 0.2s ease-in-out;
+}
